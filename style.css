@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #00989d;
+}
+
+.upper-box {
+    position: relative;
+    display: flex;
+    height: 50%;
+    background-color: #00989d;
+}
+
+.upper-box div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    border: white 0.3rem solid;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.upper-box div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: white 0.3rem solid;
+}
+
+
+.circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: #fe8888;
+    width: 30px;
+    height: 30px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.circle2 {
+    background-color: yellow;
+    top: 30px;
+    left: 160px;
+    z-index: 1;
+}
+
+.circle3 {
+    background-color: #fe8888;
+    width: 30px;
+    height: 30px;
+    top: 40px;
+    left: 360px;
+    z-index: 1;
+}
+
+.circle6 {
+    background-color: #fe8888;
+    top: 90px;
+    left: 240px;
+    z-index: 1;
+}
+
+.circle4 {
+    background-color: #fe8888;
+    width: 30px;
+    height: 30px;
+    top: 120px;
+    left: 20px;
+    z-index: 1;
+}
+
+.circle5 {
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    top: 190px;
+    left: 80px;
+    z-index: 1;
+}
+
+
+#figure-1 {
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    bottom: 0px;
+    width: 150px
+}
+
+#figure-2 {
+    position: absolute;
+    bottom: 0px;
+    width: 300px;
+    z-index: 1;
+}
+
+
+.triangle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 0 250px;
+    height: 0;
+    z-index: 1;
+}
+
+.triangle-small {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #c9e265;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index: 2;
+}
+
+.triangle-big {
+    width: 0;
+    height: 0;
+    border-bottom: 350px solid #008036;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    right: calc(50% - 250px);
+
+}
